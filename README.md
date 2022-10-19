@@ -1,2 +1,3 @@
 # odin-recipes
-Proyecto de Odin que administrara recetas
+Primer proyecto de Odin que realizo
+Sera un proyecto de manejo de recetas
