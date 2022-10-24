@@ -1,0 +1,47 @@
+body{
+    background-color: tan;
+    font-family: Helvetica, sans-serif;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 900;
+    color:black;
+    background-color: goldenrod;
+}
+
+.odin-image-main-div{
+    text-align: center;
+    background-color: black;
+}
+
+.odin-image-main{
+    width: 972px;
+    height: 700px;
+}
+
+.main-menu{
+    background-color: goldenrod;
+    color:black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    list-style: square;
+    list-style: inside;
+}
+
+.name-of-recipe, .ingredients, .steps{
+    color:black;
+    background-color: goldenrod;
+}
+
+.steps-content, .ingredients-content{
+    color:black;
+    padding-right: 50%;
+}
+
+.image-recipe{
+    width: 400px;
+    height: 300px;
+}
