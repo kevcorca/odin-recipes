@@ -1,0 +1,288 @@
+/* -------------------------Main Menu----------------------------- */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#index-body {
+    background-image: url(../img/3insqmjaypud1.jpeg);
+    background-color: transparent;
+}
+
+#main-title {
+    background-image: url(../img/odin.png);
+    background-size: cover;
+    text-align: center;
+    padding: 12px;
+    margin: 25px 35%;
+    border: 5px solid #14478A;
+    border-radius: 12px 30px;
+}
+
+.recipe-list {
+    text-align: center;
+    list-style: none;
+}
+
+.div-lasagna,
+.div-garlic-rice,
+.div-miso-ramen {
+    background-color: #14478A;
+    background-size: cover;
+    text-shadow: #14478A 1px 0 50px;
+    margin: 25px 35%;
+    padding: 12px;
+    border: 3px solid #113a6e;
+    border-radius: 10px;
+}
+
+.div-lasagna {
+    margin-top: 3.5rem;
+    background-image: url(../img/lasagna-icon.png);
+}
+
+.div-lasagna a:link,
+.div-lasagna a:visited,
+.div-lasagna a:active,
+.div-miso-ramen a:link,
+.div-miso-ramen a:visited,
+.div-miso-ramen a:active,
+.div-garlic-rice a:link,
+.div-garlic-rice a:visited,
+.div-garlic-rice a:active{
+    color: #ffffff;
+}
+
+.div-miso-ramen {
+    background-image: url(../img/miso-ramen-icon.png);
+}
+
+.div-garlic-rice {
+    background-image: url(../img/garlic-rice-icon.png);
+}
+/* -------------------------Miso Ramen------------------------------ */
+
+#miso-body {
+    background-image: url(../img/sick-background2.jpg);
+    background-size: cover;
+}
+
+#miso-h1 {
+    background-image: url(../img/miso-ramen-icon.png);
+    color: azure;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 35%;
+    border: 5px solid #14478A;
+    border-radius: 30px 12px;
+}
+
+.miso-desc img {
+    display: block;
+    height: 30em;
+    width: auto;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.miso-desc p {
+    background-color: beige;
+    text-align: center;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.miso-ingredients {
+    background-color: beige;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.miso-ingredients h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.miso-ingredients ul {
+    padding: 15px 35%
+}
+
+.miso-steps {
+    background-color: beige;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.miso-steps h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.miso-steps ol {
+    padding: 15px 7.5%
+}
+
+.return {
+    display: block;
+    background-color: beige;
+    text-align: center;
+    width: 15rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* -------------------------Garlic Rice----------------------------- */
+
+#garlic-body {
+    background-image: url(../img/sick-background3.jpg);
+    background-size: cover;
+}
+
+#garlic-h1 {
+    background-image: url(../img/garlic-rice-icon.png);
+    color: #14478A;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 35%;
+    border: 5px solid #14478A;
+    border-radius: 30px 12px;
+}
+
+.garlic-desc img {
+    display: block;
+    height: 22.5em;
+    width: auto;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.garlic-desc p {
+    background-color: beige;
+    text-align: center;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.garlic-ingredients {
+    background-color: beige;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.garlic-ingredients h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.garlic-ingredients ul {
+    padding: 15px 24%
+}
+
+.garlic-steps {
+    background-color: beige;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.garlic-steps h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.garlic-steps ol {
+    padding: 15px 7.5%
+}
+/* -------------------------Lasagna--------------------------------- */
+
+#lasagna-body {
+    background-image: url(../img/sick-background1.jpg);
+    background-size: 75%;
+}
+
+#lasagna-h1 {
+    background-image: url(../img/lasagna-icon.png);
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 35%;
+    border: 5px solid #14478A;
+    border-radius: 30px 12px;
+}
+
+.lasagna-desc img {
+    display: block;
+    height: 22.5em;
+    width: auto;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.lasagna-desc p {
+    background-color: beige;
+    text-align: center;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.lasagna-ingredients {
+    background-color: beige;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.lasagna-ingredients h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.lasagna-ingredients ul {
+    padding: 15px 35%
+}
+
+.lasagna-steps {
+    background-color: beige;
+    width: 30rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.lasagna-steps h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.lasagna-steps ol {
+    padding: 15px 7.5%
+}
+
+.return {
+    display: block;
+    background-color: beige;
+    text-align: center;
+    width: 15rem;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
